@@ -14,14 +14,14 @@ Step 3: Use the below API's to see if you get the List of Metrics and correspond
 
 APIs for Metrics:
 
-a) Create a metric (This API is used by the sensor-emulator app to send Metrics every 5 seconds. Would also being trigerring creation of alerts based on rules defined)
+a) Create a metric (This API is used by the sensor-emulator app to send Metrics every 5 seconds. Would also trigger the creation of alerts based on rules defined)
 
 POST: http://localhost:8080/metrics/create
 [Body would be the Json with timestamp and value parameters]
 
 b) Read all Metrics
 
-GET: http://localhost:8080/metrics/read
+GET: http://localhost:8080/metrics/readAll
 
 c) Read all Metrics within a timestamp range
 
@@ -31,7 +31,7 @@ APIs for Alerts:
 
 a) Read all Alerts
 
-GET: http://localhost:8080/alerts/read
+GET: http://localhost:8080/alerts/readAll
 
 b) Read all Alerts within a timestamp range
 
