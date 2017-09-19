@@ -4,7 +4,9 @@ Coding Assignment for Egen Solutions
 
 To Run the Application :
 
-Step 1: Execute the "EgenBeChallengeApp.java" file inside src/main/java
+Step 1: Execute the "EgenBeChallengeApp.java" file inside src/main/java or you can run the below command inside your repo on your terminal:
+
+  java -jar -Dbase.value=<baseValue> egen-be-challenge-0.0.1-SNAPSHOT.jar (<baseValue> can be any integer value for baseWeight)
 
 Step 2: Run the sensor emulator using the below steps on your terminal
   1) mvn clean package
