@@ -10,6 +10,7 @@ Step 1: Execute the "EgenBeChallengeApp.java" file inside src/main/java or you c
   2) java -jar -Dbase.value=(baseValue) target/egen-be-challenge-0.0.1-SNAPSHOT.jar (<baseValue> can be any integer value for baseWeight)
 
 Step 2: Run the sensor emulator using the below steps on your terminal
+  Clone the repo from https://github.com/egen/sensor-emulator.git
   1) mvn clean package
   2) java -jar -Dbase.value=150 -Dapi.url=http://localhost:8080/metrics/create sensor-emulator-0.0.1-SNAPSHOT.jar
   
