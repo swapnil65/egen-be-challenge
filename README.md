@@ -6,7 +6,7 @@ To Run the Application :
 
 Step 1: Execute the "EgenBeChallengeApp.java" file inside src/main/java or you can run the below command inside your repo on your terminal:
 
-  1) mvn clean package install -U
+  1) mvn clean package
   2) java -jar -Dbase.value=(baseValue) target/egen-be-challenge-0.0.1-SNAPSHOT.jar (<baseValue> can be any integer value for baseWeight)
 
 Step 2: Run the sensor emulator using the below steps on your terminal
