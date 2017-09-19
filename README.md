@@ -10,7 +10,7 @@ Step 1: Execute the "EgenBeChallengeApp.java" file inside src/main/java or you c
 
 Step 2: Run the sensor emulator using the below steps on your terminal
   1) mvn clean package
-  2) java -jar -Dbase.value=150 -Dapi.url=http://localhost:8080 sensor-emulator-0.0.1-SNAPSHOT.jar
+  2) java -jar -Dbase.value=150 -Dapi.url=http://localhost:8080/metrics/create sensor-emulator-0.0.1-SNAPSHOT.jar
   
 Step 3: Use the below API's to see if you get the List of Metrics and corresponding Alerts  
 
